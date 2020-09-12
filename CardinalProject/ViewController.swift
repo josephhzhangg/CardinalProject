@@ -49,5 +49,13 @@ class ViewController: UIViewController {
     func loadNewQuestion() {
         questionLabel.text = quiz[questionNumber].text
     }
+    
+    
+
+    @IBAction func PrimaryTaskSegue(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "PrimaryTaskSegue", sender: self)
+    }
+    
+    
 }
 

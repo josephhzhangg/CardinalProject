@@ -14,6 +14,7 @@
 		BB33E2C6250D3B2A00F77885 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB33E2C5250D3B2A00F77885 /* Assets.xcassets */; };
 		BB33E2C9250D3B2A00F77885 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB33E2C7250D3B2A00F77885 /* LaunchScreen.storyboard */; };
 		BB33E2D1250D3B7D00F77885 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB33E2D0250D3B7D00F77885 /* Question.swift */; };
+		BB5394C5250D7C0700101BF2 /* Primary Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5394C4250D7C0700101BF2 /* Primary Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		BB33E2C8250D3B2A00F77885 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB33E2CA250D3B2A00F77885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB33E2D0250D3B7D00F77885 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		BB5394C4250D7C0700101BF2 /* Primary Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Primary Task.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +60,41 @@
 		BB33E2BB250D3B2800F77885 /* CardinalProject */ = {
 			isa = PBXGroup;
 			children = (
+				BB5394C0250D7A4700101BF2 /* Views */,
+				BB5394BF250D7A3500101BF2 /* Models */,
+				BB5394C1250D7A5F00101BF2 /* Controllers */,
 				BB33E2BC250D3B2800F77885 /* AppDelegate.swift */,
 				BB33E2BE250D3B2800F77885 /* SceneDelegate.swift */,
-				BB33E2C0250D3B2800F77885 /* ViewController.swift */,
-				BB33E2C2250D3B2800F77885 /* Main.storyboard */,
 				BB33E2C5250D3B2A00F77885 /* Assets.xcassets */,
 				BB33E2C7250D3B2A00F77885 /* LaunchScreen.storyboard */,
 				BB33E2CA250D3B2A00F77885 /* Info.plist */,
 				BB33E2D0250D3B7D00F77885 /* Question.swift */,
 			);
 			path = CardinalProject;
+			sourceTree = "<group>";
+		};
+		BB5394BF250D7A3500101BF2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		BB5394C0250D7A4700101BF2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BB33E2C2250D3B2800F77885 /* Main.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		BB5394C1250D7A5F00101BF2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BB33E2C0250D3B2800F77885 /* ViewController.swift */,
+				BB5394C4250D7C0700101BF2 /* Primary Task.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +170,7 @@
 			files = (
 				BB33E2C1250D3B2800F77885 /* ViewController.swift in Sources */,
 				BB33E2D1250D3B7D00F77885 /* Question.swift in Sources */,
+				BB5394C5250D7C0700101BF2 /* Primary Task.swift in Sources */,
 				BB33E2BD250D3B2800F77885 /* AppDelegate.swift in Sources */,
 				BB33E2BF250D3B2800F77885 /* SceneDelegate.swift in Sources */,
 			);
